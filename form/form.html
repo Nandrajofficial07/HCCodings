@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+<style>
+        body{
+            background-size:100%;
+            text-align: center;
+            margin-top:200px ;
+            background-image:url(imgb.jpg)
+
+        }
+        div{
+            width:35%;
+            height:auto;
+            font-size: xx-large;
+
+            border:30px solid;
+            border-left:200px solid;
+            border-right:200px solid ;
+            border-top:50px solid ;
+
+            border-left-color: rgba(104, 164, 216, 0.336);
+            border-right-color: rgba(240, 248, 255, 0.445);
+            border-top-color: rgb(14, 15, 15);
+            border-bottom-color: bisque;
+
+
+            border-top-right-radius:10px;
+            border-bottom-right-radius:10px;
+
+            margin-left:300px;
+            background-size:cover;
+            background-image: url(imgc.jpg);
+        
+            box-shadow:0px 100px rgba(190, 187, 136, 0.692);
+            padding: 10px;
+
+       }
+        #ins,button{
+            border-radius: 5px;
+            background-color: lightseagreen;
+            padding:10px;
+            transform: translateX(4px);
+        }
+        #ins{
+            width:35%;
+        }
+        input{
+            padding:8px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        table{
+            border-collapse:collapse; 
+            text-align: left;
+            font-size:40px;
+            width:100%;
+            height: auto;
+            border: 1px solid;
+            background-color: aliceblue; 
+            
+        }
+        th{
+            border: 1px solid;
+            background-color:greenyellow;
+        }
+        td{
+            border: 1px solid;
+            background-color: rgb(30, 115, 189);
+        }
+        #hf{    
+            width:25%;
+            /* height:50px; */
+            background-color: rgba(175, 185, 185, 0.514);
+            
+            margin-top:-100px;
+            margin-left:500px;
+
+            border:10px solid;
+            padding:10px;
+            box-shadow:4px 4px 4px 4px;     
+        }
+    </style>
+
+    </head>
+
+<!-- body start -->
+    <body>
+    
+    <h1 id="hf">Form?</h1>
+    <h2 style="color:white;" >An HTML form is a section of a document which contains controls such as text fields,
+    <br>password fields, checkboxes, radio buttons, submit button, menus etc.
+    <br>An HTML form facilitates the user to enter data that is to be sent 
+    <br>to the server for processing such as name,email address, password, phone number, etc.
+    </h2>
+    
+<!-- table section -->
+    <table>
+
+        <tr>
+            <th>Tags</th>
+            <th>Description</th>
+        </tr>  
+         
+        <tr>
+            <td>< form ></td>
+            <td>It defines an HTML form to enter inputs by the used side.</td>
+        </tr>
+        <tr>
+            <td>< input ></td>
+            <td>It defines an input control.</td>
+        </tr><tr>
+            <td>< textarea ></td>
+            <td>It defines a multi-line input control..</td>
+        </tr><tr>
+            <td>< label ></td>
+            <td>It defines a label for an input element.</td>
+        </tr>
+        <tr>
+            <td>< fieldset ></td>
+            <td>It groups the related element in a form.</td>
+        </tr>
+        <tr>
+            <td>< legend ></td>
+            <td>It defines a caption for a < fieldset > element.</td>
+        </tr>
+        <tr>
+            <td>< select ></td>
+            <td>It defines a drop-down list.</td>
+        </tr>
+        <tr>
+            <td>< optgroup ></td>
+            <td>It defines a group of related options in a drop-down list.</td>
+        </tr> <tr>
+            <td>< option ></td>
+            <td>It defines an option in a drop-down list.</td>
+        </tr> <tr>
+            <td>< button ></td>
+            <td>It defines a clickable button.</td>
+        </tr>
+        
+
+    </table>
+
+<!-- table end -->
+    <br><br><br>
+
+<!-- div section -->
+    <div>
+        <h1 style="background-color: rgba(0, 0, 0, 0.404);">Login!</h1>
+       
+        <!-- div form section -->
+
+        <form action="img.html" method="get">
+            <label for="user">User Name</label>
+        <br>
+            <input id="user" type="text" placeholder="Nandraj" required>
+        <br>
+            <label for="pass">Password</label>
+        <br>
+            <input id="pass" type="password" placeholder="n*****e" required>
+        <br>
+            <a style="font-size:10px; color:aliceblue; background-color:black;" href="">CN Account</a>
+            <a style="font-size:10px; color:aliceblue; background-color:black;" href="">Forgot Password</a>
+        <br>
+        <br>
+            <input id="ins" type="submit">
+            <button><a href="img.html">Login Here!</a> </button>
+        </form>
+
+    </div>
+        <br><br><br><br><br><br>
+</body>
+</html>
