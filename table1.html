@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+    <style>
+        table{
+            width: 100%;
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+        H1{
+            font-size:50px;
+            
+        }
+        thead{
+            color:black;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            background-color:darkgrey;
+            border:5px solid;
+            border-color: brown;
+            text-align:center;
+            letter-spacing:3px;
+
+
+        }
+        th{
+            border: 5px solid;
+            border-color: brown;
+            padding:5px;
+        }
+        tbody{
+
+        }
+        td{
+            border: 1px solid;
+            padding:20px;
+            text-align:center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            
+        }
+        a{
+            text-decoration:none;
+            color:red;
+        }
+        #sn{
+            background-color: lightseagreen;
+            color: brown;
+            width:2%;
+        }
+        #name{
+            background-color:yellowgreen;
+        }
+        #q{
+            width: 10%;
+            background-color:blueviolet;
+        }
+        #c{
+            width: 10%;
+            background-color:lightcoral;
+        }
+        #ad{
+            background-color: blue;
+        }
+        #dv1{
+            background-color: aquamarine;
+            width:100%;
+            padding:20px;
+        }
+    </style>
+</head>
+<body bgcolor="yellow">
+    <center>
+    <H1><u>Simple TABLE</u></H1>
+    </center>
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Qualification</th>
+                <th>Contact</th>
+                <th>Add</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td id="sn">01</td>
+                <td id="name"><a href="congo.html">Nandraj</a></td>
+                <td id="q">Intermediate</td>
+                <td id="c">0345-39</td>
+                <td id="ad">Hyderabad</td>
+            </tr>
+            <tr>
+                <td id="sn">02</td>
+                <td id="name"><a href="congo.html">Zubair</a></td>
+                <td id="q">Intermediate</td>
+                <td id="c">#224433</td>
+                <td id="ad">Hyderabad</td>
+            </tr>
+            <tr>
+                <td id="sn">03</td>
+                <td id="name"><a href="congo.html">Ashan</a></td>
+                <td id="q">Intermediate</td>
+                <td id="c">#224433</td>
+                <td id="ad">Hyderabad</td>
+            </tr><tr>
+                <td id="sn">0</td>
+                <td id="name"><a href="congo.html">Bilal</a></td>
+                <td id="q">Intermediate</td>
+                <td id="c">#224433</td>
+                <td id="ad">Hyderabad</td>
+            </tr><tr>
+                <td id="sn">0</td>
+                <td id="name"><a href="congo.html">Asim</a></td>
+                <td id="q">Intermediate</td>
+                <td id="c">#224433</td>
+                <td id="ad">Hyderabad</td>
+            </tr>
+
+        </tbody>
+    </table>    
+
+        <div id="dv1">
+            <center>
+                <H1><u>Cell Merges</u></H1>
+                <h2>(a)Colum Merge</h2>
+                <h2>(b)Row Merge</h2>
+            </center>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Qualification</th>
+                    <th>Contact</th>
+                    <th>Add</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td id="sn" colspan="2">01</td>
+                    <td id="q">Intermediate</td>
+                    <td id="c" colspan="2">0345-39</td>
+                    
+                </tr>
+                <tr>
+                    <td rowspan="2" id="sn">02</td>
+                    <td id="name"><a href="congo.html">Zubair</a></td>
+                    <td id="q">Intermediate</td>
+                    <td id="c">#224433</td>
+                    <td id="ad">Hyderabad</td>
+                </tr>
+                <tr>
+                    <!-- <td id="sn">03</td> -->
+                    <td id="name"><a href="congo.html">Ashan</a></td>
+                    <td id="q" rowspan="3">Intermediate</td>
+                    <td id="c" rowspan="2">#224433</td>
+                    <td id="ad">Hyderabad</td>
+                </tr><tr>
+                    <td id="sn">0</td>
+                    <!-- <td id="q">Intermediate</td> -->
+                    <td id="name"><a href="congo.html">Bilal</a></td>
+                    <!-- <td id="c">#224433</td> -->
+                    <td id="ad">Hyderabad</td>
+                </tr><tr>
+                    <td id="sn" colspan="2">0</td>
+                    <!-- <td id="name"><a href="congo.html">Asim</a></td> -->
+                    <!-- <td id="q">Intermediate</td> -->
+                    <td id="c">#224433</td>
+                    <td id="ad">Hyderabad</td>
+                </tr>
+    
+            </tbody>
+        </table>
+        <div id="dv1">
+        </div>
+    
+</body>
+</html>
