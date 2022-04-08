@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+table{
+    width: 100%;
+    text-align:justify;
+    padding: 10px;
+    border-style: groove;
+    border: ;
+        
+}
+thead{
+    color: rgb(43, 226, 73);
+ 
+    border-style: groove;
+}
+tbody, a{
+    color: blueviolet;
+    text-decoration: none;
+  
+}
+td,th{
+    border: 1px solid;
+
+}
+tr,td,a{
+    font-size: 50px;
+}
